@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-div {
+  background-color: aqua;
+  padding: 50px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 10rem;
+  height: 5rem;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.inputs {
+  padding-bottom: 3rem;
+}
+
+.line-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.results {
+  font-size: 2rem;
+}
+
+.year,
+.month,
+.day {
+  position: relative;
+}
+
+.year-error,
+.day-error,
+.month-error {
+  color: red;
+  /* margin-top: 1rem; */
+  font-size: 0.5rem;
+  font-weight: 600;
+  text-align: center;
+  top: -1rem;
+
+  position: absolute;
+}
+
+.calc-btn {
+  background-color: rgb(243, 69, 0);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-weight: 800;
+  /* font-size: 2rem; */
+}
+
+.year-place,
+.day-place,
+.month-place {
+  font-size: 3rem;
+  /* padding: 20px; */
+}
+
+.center {
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 2rem;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #2bff0021;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.logo {
+  /* background-color: aliceblue; */
+  color: rgb(255, 0, 98);
+  font-weight: 900;
+  width: 10px;
+  /* border-radius: 50%; */
+}

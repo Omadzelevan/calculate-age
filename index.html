@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="card-div">
+        <div class="inputs flex">
+          <div class="day">
+            <p class="hidden day-error">enter valid day</p>
+            <p>Day</p>
+            <input type="text" name="" id="day" placeholder="DD" />
+          </div>
+          <div class="month">
+            <p class="hidden month-error">enter valid month</p>
+            <p>Month</p>
+            <input class="" type="text" name="" id="month" placeholder="MM" />
+          </div>
+          <div class="year">
+            <p class="hidden year-error">enter valid year</p>
+            <p>Year</p>
+            <input type="text" name="" id="year" placeholder="YYYY" />
+          </div>
+        </div>
+        <div class="line-logo">
+          <div class="line"></div>
+          <div class="circle">
+            <h1 class="logo"></h1>
+          </div>
+        </div>
+        <div class="results">
+          <div class="flex center">
+            <p class="year-place">--</p>
+            <p>years</p>
+          </div>
+          <div class="flex center">
+            <p class="month-place">--</p>
+            <p>months</p>
+          </div>
+          <div class="flex center">
+            <p class="day-place">--</p>
+            <p>days</p>
+          </div>
+        </div>
+        <button class="calc-btn">Calculate Age</button>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
